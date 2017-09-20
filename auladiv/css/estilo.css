@@ -1,0 +1,137 @@
+*{
+  font-family: "Tahoma",sans-serif;
+  /*border: 1px solid #000;*/
+}
+body{
+  margin: 0;
+}
+.clear-fix{
+  clear: both;
+}
+#menu {
+  /*background-color: #000;*/
+  background-image: url(../img/fundopreto.png);
+  background-repeat: repeat-x;
+  width: 800px;
+  float: right;
+  border-radius: 0 0 0 80px;
+}
+#menu li{
+  list-style: none;
+  display: inline;
+  border: none;
+  border-right: 3px solid #bbb;
+  padding:0 30px;
+}
+#menu-lateral{
+  width: 400px;
+  float: left;
+  background-color: rgb(236,236,236);
+}
+
+#menu a{
+  color: #fff;
+  text-decoration: none;
+}
+main{
+  width: 800px;
+  float: left;
+}
+main h2{
+  border-bottom: rgb(178, 210, 31) solid 3px;
+
+}
+.categoria-cabecalho{
+  background-color: #000;
+  color: rgb(230,230,230);
+  margin: 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: normal;
+  letter-spacing: 2px;
+
+}
+.fonte-grande{
+  font-family: "Courier",monospace;
+  font-size: 3em;
+}
+
+.categoria-item li{
+  padding: 10px;
+  margin: 0 0 10px;
+  list-style-type: circle;
+  background-color: rgb(247,247,247);
+  border-bottom: 1px solid #000;
+
+}
+.categoria-item{ /*é a ul*/
+  padding: 0 10px;
+
+}
+.categoria-item a{
+  color: #000;
+  text-decoration: none;
+}
+
+
+header{
+  background-image: url(../img/fundoazul.png);
+
+
+}
+header img{
+
+}
+
+section nav h3 {
+  background-color: #000;
+  color: #bbb;
+  width: 200px;
+  height: 25px;
+}
+.produto{
+  width: 380px;
+  float: left;
+  margin: 4px 0;
+}
+.produto img{
+  float: right;
+}
+.produto h5{
+  color: rgb(53,117,165);
+  font-size: 1.4em;
+  margin: 4px;
+}
+.produto span{
+  color: rgb(163,0,3);
+  font-size: 2em;
+  font-weight: bold;
+}
+.produto-controle{
+  width: 350px;
+  margin: 0 auto;
+  clear: right;
+
+}
+.produto-controle button{
+  width: 120px;
+  margin: 0 25px;
+}
+.produto-controle button:last-child{
+  background-color: rgb(53, 117, 165);
+  color: #fff;
+}
+
+footer{
+  background-image: url(../img/fundoazul.png);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+
+}
+#monitor, #mouse, #fone{
+  max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}

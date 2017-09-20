@@ -1,0 +1,27 @@
+*{
+  font-family: "Tahoma",sans-serif;
+}
+
+#menu {
+  /*background-color: #000;*/
+  background-image: url(../img/fundopreto.png);
+  background-repeat: repeat-x;
+}
+.categoria-cabeçalho{
+  background-color: #000;
+  color: rgb(230,230,230);
+
+}
+
+header{
+  background-image: url(../img/fundoazul.png);
+
+
+}
+
+section nav h3 {
+  background-color: #000;
+  color: #bbb;
+  width: 200px;
+  height: 25px;
+}
