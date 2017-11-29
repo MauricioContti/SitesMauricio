@@ -1,0 +1,127 @@
+div{
+  background-color: green;
+	border-radius: 0%;
+  width: 400px;
+	height: 1150px;
+  position: relative;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+#centralizado{
+  position: relative;
+	float: center;
+	top: 250px;
+	left: 25px;
+}
+
+#nota{
+	font-style: italic;
+}
+
+#capaFilme{
+  margin-left: 45px;
+  width: 300px;
+  height: 200px;
+  border: 2px black;
+  border-radius: 5px;
+  box-shadow: 4px 6px 5px #000;
+}
+
+#capaFilme:hover{
+	box-shadow: 8px 10px 7px #000;
+	-webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+	filter: grayscale(0%);
+}
+
+#resumo{
+	text-align:center;
+}
+
+p{
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+h5{
+  margin-left: 40px;
+  font-size: 15px;
+}
+
+h2{
+  margin-left: 30px;
+}
+
+h4{
+  text-align: center;
+  font-size: 50px;
+}
+
+li{
+  margin-left: 45px;
+  font-size: 15px;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 1px 0px 25px black;
+}
+
+body{
+  background-color: black;
+  margin: 0 0 150px;
+}
+
+.cab{
+  background-color: black;
+  height: 230px;
+	position: fixed;
+	right: 10;
+	top: 0%;
+	width: 100%;
+	margin-top: -2.5em;
+	z-index: 999;
+	box-shadow: 4px 6px 5px #000;
+}
+
+.cab h4{
+  text-align: center;
+  color: green;
+  font-size: 80px;
+	/*position: relative;*/
+	bottom: 15px;
+}
+
+h6{
+  font-size: 15px;
+  position: relative;
+  left: 20px;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+}
+
+footer{
+	color: white;
+	position: absolute;
+	top: 6300px;
+	background-color: #2F4F4F;
+	height: 150px;
+	width: 100%;
+	clear:both;
+}
+
+footer p{
+	text-align: center;
+	padding-top: 60px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+	min-width: 800px;
+	max-width: 3840px;/
+	margin: 0 auto;
+}
